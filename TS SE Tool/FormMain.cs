@@ -156,6 +156,17 @@ namespace TS_SE_Tool
 
         private Bitmap ProgressBarGradient;
         private Image RepairImg, RefuelImg, CutomizeImg, PlayerCompanyLogo;
+
+        private void ToolStripProgressBarMain_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private Image[] ADRImgS, ADRImgSGrey, SkillImgSBG, SkillImgS, GaragesImg, CitiesImg, UrgencyImg, CargoTypeImg, CargoType2Img, 
             TruckPartsImg, TrailerPartsImg, GameIconeImg, ProgUIImgs;
 
@@ -220,8 +231,8 @@ namespace TS_SE_Tool
 
         private void FormMain_Shown(object sender, EventArgs e)
         {
-            FormSplash WindowSplash = new FormSplash();
-            WindowSplash.ShowDialog();
+            //FormSplash WindowSplash = new FormSplash();
+            //WindowSplash.ShowDialog();
 
             FillAllProfilesPaths();
         }

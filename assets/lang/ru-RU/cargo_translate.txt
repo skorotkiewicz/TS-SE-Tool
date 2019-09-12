@@ -1,0 +1,5 @@
+acetylene;Acetylene
+acid;Кислота
+apples;Яблоки
+apples_c;Яблоки
+beans;Бобы

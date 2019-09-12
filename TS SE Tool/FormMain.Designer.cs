@@ -190,7 +190,7 @@
             this.toolStripProgressBarMain = new System.Windows.Forms.ToolStripProgressBar();
             this.buttonMainLoadSave = new System.Windows.Forms.Button();
             this.pictureBoxProfileAvatar = new System.Windows.Forms.PictureBox();
-            this.buttonMainAddCustomFolder = new System.Windows.Forms.Button();
+            this.buttonMainGameSwitchCustomFolder = new System.Windows.Forms.Button();
             this.comboBoxPrevProfiles = new System.Windows.Forms.ComboBox();
             this.checkBoxProfilesAndSavesProfileBackups = new System.Windows.Forms.CheckBox();
             this.toolTipMain = new System.Windows.Forms.ToolTip(this.components);
@@ -251,7 +251,7 @@
             this.toolStripMenuItemHelp});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
-            this.menuStripMain.Size = new System.Drawing.Size(834, 24);
+            this.menuStripMain.Size = new System.Drawing.Size(934, 24);
             this.menuStripMain.TabIndex = 0;
             this.menuStripMain.Text = "menuStripMain";
             // 
@@ -296,7 +296,7 @@
             // toolStripMenuItemCreateTrFile
             // 
             this.toolStripMenuItemCreateTrFile.Name = "toolStripMenuItemCreateTrFile";
-            this.toolStripMenuItemCreateTrFile.Size = new System.Drawing.Size(162, 22);
+            this.toolStripMenuItemCreateTrFile.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItemCreateTrFile.Text = "Make translation";
             this.toolStripMenuItemCreateTrFile.Visible = false;
             this.toolStripMenuItemCreateTrFile.Click += new System.EventHandler(this.makeToolStripMenuItem_Click);
@@ -304,7 +304,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(159, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             this.toolStripSeparator2.Visible = false;
             // 
             // toolStripMenuItemHelp
@@ -320,14 +320,14 @@
             // toolStripMenuItemAbout
             // 
             this.toolStripMenuItemAbout.Name = "toolStripMenuItemAbout";
-            this.toolStripMenuItemAbout.Size = new System.Drawing.Size(114, 22);
+            this.toolStripMenuItemAbout.Size = new System.Drawing.Size(115, 22);
             this.toolStripMenuItemAbout.Text = "About";
             this.toolStripMenuItemAbout.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(111, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(112, 6);
             // 
             // toolStripMenuItem1
             // 
@@ -335,20 +335,20 @@
             this.localPDFToolStripMenuItem,
             this.youTubeVideoToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
             this.toolStripMenuItem1.Text = "How To";
             // 
             // localPDFToolStripMenuItem
             // 
             this.localPDFToolStripMenuItem.Name = "localPDFToolStripMenuItem";
-            this.localPDFToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.localPDFToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.localPDFToolStripMenuItem.Text = "Local PDF";
             this.localPDFToolStripMenuItem.Click += new System.EventHandler(this.localPDFToolStripMenuItem_Click);
             // 
             // youTubeVideoToolStripMenuItem
             // 
             this.youTubeVideoToolStripMenuItem.Name = "youTubeVideoToolStripMenuItem";
-            this.youTubeVideoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.youTubeVideoToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.youTubeVideoToolStripMenuItem.Text = "YouTube video";
             this.youTubeVideoToolStripMenuItem.Click += new System.EventHandler(this.youTubeVideoToolStripMenuItem_Click);
             // 
@@ -410,7 +410,7 @@
             this.tabControlMain.Location = new System.Drawing.Point(3, 3);
             this.tabControlMain.Name = "tabControlMain";
             this.tabControlMain.SelectedIndex = 0;
-            this.tabControlMain.Size = new System.Drawing.Size(578, 569);
+            this.tabControlMain.Size = new System.Drawing.Size(678, 569);
             this.tabControlMain.TabIndex = 6;
             // 
             // tabPageProfile
@@ -421,7 +421,7 @@
             this.tabPageProfile.Location = new System.Drawing.Point(4, 28);
             this.tabPageProfile.Name = "tabPageProfile";
             this.tabPageProfile.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageProfile.Size = new System.Drawing.Size(570, 537);
+            this.tabPageProfile.Size = new System.Drawing.Size(670, 537);
             this.tabPageProfile.TabIndex = 0;
             this.tabPageProfile.Text = "Profile";
             this.tabPageProfile.UseVisualStyleBackColor = true;
@@ -439,14 +439,14 @@
             this.groupBoxProfilePlayerLevel.Controls.Add(this.buttonPlayerLevelMinimum);
             this.groupBoxProfilePlayerLevel.Location = new System.Drawing.Point(6, 6);
             this.groupBoxProfilePlayerLevel.Name = "groupBoxProfilePlayerLevel";
-            this.groupBoxProfilePlayerLevel.Size = new System.Drawing.Size(420, 83);
+            this.groupBoxProfilePlayerLevel.Size = new System.Drawing.Size(528, 83);
             this.groupBoxProfilePlayerLevel.TabIndex = 0;
             this.groupBoxProfilePlayerLevel.TabStop = false;
             this.groupBoxProfilePlayerLevel.Text = "Player level";
             // 
             // labelPlayerExperience
             // 
-            this.labelPlayerExperience.Location = new System.Drawing.Point(110, 53);
+            this.labelPlayerExperience.Location = new System.Drawing.Point(156, 53);
             this.labelPlayerExperience.Name = "labelPlayerExperience";
             this.labelPlayerExperience.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.labelPlayerExperience.Size = new System.Drawing.Size(115, 13);
@@ -467,7 +467,7 @@
             // 
             this.panelPlayerLevel.Controls.Add(this.labelPlayerLevelName);
             this.panelPlayerLevel.Controls.Add(this.labelPlayerLevelNumber);
-            this.panelPlayerLevel.Location = new System.Drawing.Point(110, 19);
+            this.panelPlayerLevel.Location = new System.Drawing.Point(156, 19);
             this.panelPlayerLevel.Name = "panelPlayerLevel";
             this.panelPlayerLevel.Size = new System.Drawing.Size(220, 26);
             this.panelPlayerLevel.TabIndex = 5;
@@ -496,7 +496,7 @@
             // labelExperienceNxtLvlThreshhold
             // 
             this.labelExperienceNxtLvlThreshhold.AutoSize = true;
-            this.labelExperienceNxtLvlThreshhold.Location = new System.Drawing.Point(231, 53);
+            this.labelExperienceNxtLvlThreshhold.Location = new System.Drawing.Point(277, 53);
             this.labelExperienceNxtLvlThreshhold.Name = "labelExperienceNxtLvlThreshhold";
             this.labelExperienceNxtLvlThreshhold.Size = new System.Drawing.Size(27, 13);
             this.labelExperienceNxtLvlThreshhold.TabIndex = 38;
@@ -504,7 +504,7 @@
             // 
             // buttonPlayerLevelPlus01
             // 
-            this.buttonPlayerLevelPlus01.Location = new System.Drawing.Point(336, 19);
+            this.buttonPlayerLevelPlus01.Location = new System.Drawing.Point(435, 19);
             this.buttonPlayerLevelPlus01.Name = "buttonPlayerLevelPlus01";
             this.buttonPlayerLevelPlus01.Size = new System.Drawing.Size(36, 23);
             this.buttonPlayerLevelPlus01.TabIndex = 12;
@@ -514,7 +514,7 @@
             // 
             // buttonPlayerLevelPlus10
             // 
-            this.buttonPlayerLevelPlus10.Location = new System.Drawing.Point(378, 19);
+            this.buttonPlayerLevelPlus10.Location = new System.Drawing.Point(477, 19);
             this.buttonPlayerLevelPlus10.Name = "buttonPlayerLevelPlus10";
             this.buttonPlayerLevelPlus10.Size = new System.Drawing.Size(36, 23);
             this.buttonPlayerLevelPlus10.TabIndex = 13;
@@ -534,7 +534,7 @@
             // 
             // buttonPlayerLevelMaximum
             // 
-            this.buttonPlayerLevelMaximum.Location = new System.Drawing.Point(336, 48);
+            this.buttonPlayerLevelMaximum.Location = new System.Drawing.Point(435, 47);
             this.buttonPlayerLevelMaximum.Name = "buttonPlayerLevelMaximum";
             this.buttonPlayerLevelMaximum.Size = new System.Drawing.Size(78, 23);
             this.buttonPlayerLevelMaximum.TabIndex = 14;
@@ -556,7 +556,7 @@
             // 
             this.groupBoxProfileSkill.Location = new System.Drawing.Point(6, 91);
             this.groupBoxProfileSkill.Name = "groupBoxProfileSkill";
-            this.groupBoxProfileSkill.Size = new System.Drawing.Size(420, 435);
+            this.groupBoxProfileSkill.Size = new System.Drawing.Size(528, 435);
             this.groupBoxProfileSkill.TabIndex = 34;
             this.groupBoxProfileSkill.TabStop = false;
             this.groupBoxProfileSkill.Text = "Skills";
@@ -564,7 +564,7 @@
             // groupBoxProfileUserColors
             // 
             this.groupBoxProfileUserColors.Controls.Add(this.buttonUserColorsShareColors);
-            this.groupBoxProfileUserColors.Location = new System.Drawing.Point(432, 6);
+            this.groupBoxProfileUserColors.Location = new System.Drawing.Point(540, 6);
             this.groupBoxProfileUserColors.Name = "groupBoxProfileUserColors";
             this.groupBoxProfileUserColors.Size = new System.Drawing.Size(124, 520);
             this.groupBoxProfileUserColors.TabIndex = 7;
@@ -587,7 +587,7 @@
             this.tabPageCompany.Location = new System.Drawing.Point(4, 28);
             this.tabPageCompany.Name = "tabPageCompany";
             this.tabPageCompany.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCompany.Size = new System.Drawing.Size(570, 537);
+            this.tabPageCompany.Size = new System.Drawing.Size(670, 537);
             this.tabPageCompany.TabIndex = 5;
             this.tabPageCompany.Text = "Company";
             this.tabPageCompany.UseVisualStyleBackColor = true;
@@ -604,7 +604,7 @@
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 137F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(564, 531);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(664, 531);
             this.tableLayoutPanel2.TabIndex = 29;
             // 
             // tableLayoutPanel4
@@ -626,7 +626,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(564, 431);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(664, 431);
             this.tableLayoutPanel4.TabIndex = 30;
             // 
             // labelUserCompanyVisitedCities
@@ -645,10 +645,10 @@
             this.listBoxGarages.Font = new System.Drawing.Font("Microsoft Sans Serif", 2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBoxGarages.FormattingEnabled = true;
             this.listBoxGarages.ItemHeight = 4;
-            this.listBoxGarages.Location = new System.Drawing.Point(285, 33);
+            this.listBoxGarages.Location = new System.Drawing.Point(335, 33);
             this.listBoxGarages.Name = "listBoxGarages";
             this.listBoxGarages.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listBoxGarages.Size = new System.Drawing.Size(276, 313);
+            this.listBoxGarages.Size = new System.Drawing.Size(326, 313);
             this.listBoxGarages.TabIndex = 17;
             this.listBoxGarages.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.listBoxGarages_DrawItem);
             this.listBoxGarages.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.listBoxGarages_MeasureItem);
@@ -662,7 +662,7 @@
             this.listBoxVisitedCities.Location = new System.Drawing.Point(3, 33);
             this.listBoxVisitedCities.Name = "listBoxVisitedCities";
             this.listBoxVisitedCities.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listBoxVisitedCities.Size = new System.Drawing.Size(276, 313);
+            this.listBoxVisitedCities.Size = new System.Drawing.Size(326, 313);
             this.listBoxVisitedCities.TabIndex = 19;
             this.listBoxVisitedCities.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.listBoxVisitedCities_DrawItem);
             this.listBoxVisitedCities.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.listBoxVisitedCities_MeasureItem);
@@ -680,7 +680,7 @@
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(282, 82);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(332, 82);
             this.tableLayoutPanel5.TabIndex = 21;
             // 
             // buttonUserCompanyCitiesVisit
@@ -689,7 +689,7 @@
             this.buttonUserCompanyCitiesVisit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonUserCompanyCitiesVisit.Location = new System.Drawing.Point(3, 3);
             this.buttonUserCompanyCitiesVisit.Name = "buttonUserCompanyCitiesVisit";
-            this.buttonUserCompanyCitiesVisit.Size = new System.Drawing.Size(135, 76);
+            this.buttonUserCompanyCitiesVisit.Size = new System.Drawing.Size(160, 76);
             this.buttonUserCompanyCitiesVisit.TabIndex = 26;
             this.buttonUserCompanyCitiesVisit.Text = "Visit";
             this.buttonUserCompanyCitiesVisit.UseVisualStyleBackColor = true;
@@ -699,9 +699,9 @@
             // 
             this.buttonUserCompanyCitiesUnVisit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonUserCompanyCitiesUnVisit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonUserCompanyCitiesUnVisit.Location = new System.Drawing.Point(144, 3);
+            this.buttonUserCompanyCitiesUnVisit.Location = new System.Drawing.Point(169, 3);
             this.buttonUserCompanyCitiesUnVisit.Name = "buttonUserCompanyCitiesUnVisit";
-            this.buttonUserCompanyCitiesUnVisit.Size = new System.Drawing.Size(135, 76);
+            this.buttonUserCompanyCitiesUnVisit.Size = new System.Drawing.Size(160, 76);
             this.buttonUserCompanyCitiesUnVisit.TabIndex = 27;
             this.buttonUserCompanyCitiesUnVisit.Text = "Unvisit";
             this.buttonUserCompanyCitiesUnVisit.UseVisualStyleBackColor = true;
@@ -718,13 +718,13 @@
             this.tableLayoutPanel6.Controls.Add(this.buttonUserCompanyGaragesSell, 2, 0);
             this.tableLayoutPanel6.Controls.Add(this.buttonUserCompanyGaragesUpgrade, 1, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(282, 349);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(332, 349);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(282, 82);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(332, 82);
             this.tableLayoutPanel6.TabIndex = 22;
             // 
             // buttonUserCompanyGaragesBuy
@@ -733,7 +733,7 @@
             this.buttonUserCompanyGaragesBuy.Location = new System.Drawing.Point(3, 3);
             this.buttonUserCompanyGaragesBuy.Name = "buttonUserCompanyGaragesBuy";
             this.tableLayoutPanel6.SetRowSpan(this.buttonUserCompanyGaragesBuy, 2);
-            this.buttonUserCompanyGaragesBuy.Size = new System.Drawing.Size(91, 76);
+            this.buttonUserCompanyGaragesBuy.Size = new System.Drawing.Size(116, 76);
             this.buttonUserCompanyGaragesBuy.TabIndex = 23;
             this.buttonUserCompanyGaragesBuy.Text = "Buy";
             this.buttonUserCompanyGaragesBuy.UseVisualStyleBackColor = true;
@@ -742,9 +742,9 @@
             // buttonUserCompanyGaragesBuyDowngrade
             // 
             this.buttonUserCompanyGaragesBuyDowngrade.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonUserCompanyGaragesBuyDowngrade.Location = new System.Drawing.Point(100, 44);
+            this.buttonUserCompanyGaragesBuyDowngrade.Location = new System.Drawing.Point(125, 44);
             this.buttonUserCompanyGaragesBuyDowngrade.Name = "buttonUserCompanyGaragesBuyDowngrade";
-            this.buttonUserCompanyGaragesBuyDowngrade.Size = new System.Drawing.Size(91, 35);
+            this.buttonUserCompanyGaragesBuyDowngrade.Size = new System.Drawing.Size(116, 35);
             this.buttonUserCompanyGaragesBuyDowngrade.TabIndex = 25;
             this.buttonUserCompanyGaragesBuyDowngrade.Text = "Downgrade";
             this.buttonUserCompanyGaragesBuyDowngrade.UseVisualStyleBackColor = true;
@@ -753,7 +753,7 @@
             // buttonUserCompanyGaragesSell
             // 
             this.buttonUserCompanyGaragesSell.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonUserCompanyGaragesSell.Location = new System.Drawing.Point(197, 3);
+            this.buttonUserCompanyGaragesSell.Location = new System.Drawing.Point(247, 3);
             this.buttonUserCompanyGaragesSell.Name = "buttonUserCompanyGaragesSell";
             this.tableLayoutPanel6.SetRowSpan(this.buttonUserCompanyGaragesSell, 2);
             this.buttonUserCompanyGaragesSell.Size = new System.Drawing.Size(82, 76);
@@ -765,9 +765,9 @@
             // buttonUserCompanyGaragesUpgrade
             // 
             this.buttonUserCompanyGaragesUpgrade.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonUserCompanyGaragesUpgrade.Location = new System.Drawing.Point(100, 3);
+            this.buttonUserCompanyGaragesUpgrade.Location = new System.Drawing.Point(125, 3);
             this.buttonUserCompanyGaragesUpgrade.Name = "buttonUserCompanyGaragesUpgrade";
-            this.buttonUserCompanyGaragesUpgrade.Size = new System.Drawing.Size(91, 35);
+            this.buttonUserCompanyGaragesUpgrade.Size = new System.Drawing.Size(116, 35);
             this.buttonUserCompanyGaragesUpgrade.TabIndex = 24;
             this.buttonUserCompanyGaragesUpgrade.Text = "Upgrade";
             this.buttonUserCompanyGaragesUpgrade.UseVisualStyleBackColor = true;
@@ -781,12 +781,12 @@
             this.tableLayoutPanel17.Controls.Add(this.labelUserCompanyGarages, 0, 0);
             this.tableLayoutPanel17.Controls.Add(this.buttonUserCompanyGaragesManage, 1, 0);
             this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(282, 0);
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(332, 0);
             this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel17.Name = "tableLayoutPanel17";
             this.tableLayoutPanel17.RowCount = 1;
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(282, 30);
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(332, 30);
             this.tableLayoutPanel17.TabIndex = 23;
             // 
             // labelUserCompanyGarages
@@ -804,9 +804,9 @@
             // buttonUserCompanyGaragesManage
             // 
             this.buttonUserCompanyGaragesManage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonUserCompanyGaragesManage.Location = new System.Drawing.Point(183, 3);
+            this.buttonUserCompanyGaragesManage.Location = new System.Drawing.Point(216, 3);
             this.buttonUserCompanyGaragesManage.Name = "buttonUserCompanyGaragesManage";
-            this.buttonUserCompanyGaragesManage.Size = new System.Drawing.Size(96, 24);
+            this.buttonUserCompanyGaragesManage.Size = new System.Drawing.Size(113, 24);
             this.buttonUserCompanyGaragesManage.TabIndex = 19;
             this.buttonUserCompanyGaragesManage.Text = "Manage";
             this.buttonUserCompanyGaragesManage.UseVisualStyleBackColor = true;
@@ -833,7 +833,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(564, 100);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(664, 100);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // pictureBoxCompanyLogo
@@ -913,7 +913,7 @@
             this.tabPageTruck.Location = new System.Drawing.Point(4, 28);
             this.tabPageTruck.Name = "tabPageTruck";
             this.tabPageTruck.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageTruck.Size = new System.Drawing.Size(570, 537);
+            this.tabPageTruck.Size = new System.Drawing.Size(670, 537);
             this.tabPageTruck.TabIndex = 1;
             this.tabPageTruck.Text = "Truck";
             this.tabPageTruck.UseVisualStyleBackColor = true;
@@ -932,7 +932,7 @@
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(564, 531);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(664, 531);
             this.tableLayoutPanel9.TabIndex = 28;
             // 
             // groupBoxUserTruckTruck
@@ -941,7 +941,7 @@
             this.groupBoxUserTruckTruck.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxUserTruckTruck.Location = new System.Drawing.Point(3, 3);
             this.groupBoxUserTruckTruck.Name = "groupBoxUserTruckTruck";
-            this.groupBoxUserTruckTruck.Size = new System.Drawing.Size(558, 98);
+            this.groupBoxUserTruckTruck.Size = new System.Drawing.Size(658, 98);
             this.groupBoxUserTruckTruck.TabIndex = 29;
             this.groupBoxUserTruckTruck.TabStop = false;
             this.groupBoxUserTruckTruck.Text = "Truck";
@@ -963,7 +963,7 @@
             this.tableLayoutPanel8.RowCount = 2;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(552, 79);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(652, 79);
             this.tableLayoutPanel8.TabIndex = 28;
             // 
             // buttonUserTruckSelectCurrent
@@ -997,7 +997,7 @@
             this.comboBoxUserTruckCompanyTrucks.FormattingEnabled = true;
             this.comboBoxUserTruckCompanyTrucks.Location = new System.Drawing.Point(3, 3);
             this.comboBoxUserTruckCompanyTrucks.Name = "comboBoxUserTruckCompanyTrucks";
-            this.comboBoxUserTruckCompanyTrucks.Size = new System.Drawing.Size(546, 21);
+            this.comboBoxUserTruckCompanyTrucks.Size = new System.Drawing.Size(646, 21);
             this.comboBoxUserTruckCompanyTrucks.TabIndex = 22;
             this.comboBoxUserTruckCompanyTrucks.SelectedIndexChanged += new System.EventHandler(this.comboBoxCompanyTrucks_SelectedIndexChanged);
             // 
@@ -1007,7 +1007,7 @@
             this.groupBoxUserTruckShareTruckSettings.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxUserTruckShareTruckSettings.Location = new System.Drawing.Point(3, 424);
             this.groupBoxUserTruckShareTruckSettings.Name = "groupBoxUserTruckShareTruckSettings";
-            this.groupBoxUserTruckShareTruckSettings.Size = new System.Drawing.Size(558, 104);
+            this.groupBoxUserTruckShareTruckSettings.Size = new System.Drawing.Size(658, 104);
             this.groupBoxUserTruckShareTruckSettings.TabIndex = 27;
             this.groupBoxUserTruckShareTruckSettings.TabStop = false;
             this.groupBoxUserTruckShareTruckSettings.Text = "Share Truck Settings";
@@ -1030,16 +1030,16 @@
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(552, 85);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(652, 85);
             this.tableLayoutPanel7.TabIndex = 28;
             // 
             // buttonShareTruckWholeTruckPaste
             // 
             this.buttonShareTruckWholeTruckPaste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckWholeTruckPaste.Enabled = false;
-            this.buttonShareTruckWholeTruckPaste.Location = new System.Drawing.Point(370, 45);
+            this.buttonShareTruckWholeTruckPaste.Location = new System.Drawing.Point(437, 45);
             this.buttonShareTruckWholeTruckPaste.Name = "buttonShareTruckWholeTruckPaste";
-            this.buttonShareTruckWholeTruckPaste.Size = new System.Drawing.Size(179, 37);
+            this.buttonShareTruckWholeTruckPaste.Size = new System.Drawing.Size(212, 37);
             this.buttonShareTruckWholeTruckPaste.TabIndex = 5;
             this.buttonShareTruckWholeTruckPaste.Text = "Paste All Truck Settings";
             this.buttonShareTruckWholeTruckPaste.UseVisualStyleBackColor = true;
@@ -1049,7 +1049,7 @@
             this.buttonShareTruckTruckPaintCopy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckTruckPaintCopy.Location = new System.Drawing.Point(3, 3);
             this.buttonShareTruckTruckPaintCopy.Name = "buttonShareTruckTruckPaintCopy";
-            this.buttonShareTruckTruckPaintCopy.Size = new System.Drawing.Size(177, 36);
+            this.buttonShareTruckTruckPaintCopy.Size = new System.Drawing.Size(211, 36);
             this.buttonShareTruckTruckPaintCopy.TabIndex = 0;
             this.buttonShareTruckTruckPaintCopy.Text = "Copy Paint Settings";
             this.buttonShareTruckTruckPaintCopy.UseVisualStyleBackColor = true;
@@ -1059,9 +1059,9 @@
             // 
             this.buttonShareTruckTruckDetailsPaste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckTruckDetailsPaste.Enabled = false;
-            this.buttonShareTruckTruckDetailsPaste.Location = new System.Drawing.Point(186, 45);
+            this.buttonShareTruckTruckDetailsPaste.Location = new System.Drawing.Point(220, 45);
             this.buttonShareTruckTruckDetailsPaste.Name = "buttonShareTruckTruckDetailsPaste";
-            this.buttonShareTruckTruckDetailsPaste.Size = new System.Drawing.Size(178, 37);
+            this.buttonShareTruckTruckDetailsPaste.Size = new System.Drawing.Size(211, 37);
             this.buttonShareTruckTruckDetailsPaste.TabIndex = 4;
             this.buttonShareTruckTruckDetailsPaste.Text = "Paste Truck Datails";
             this.buttonShareTruckTruckDetailsPaste.UseVisualStyleBackColor = true;
@@ -1071,7 +1071,7 @@
             this.buttonShareTruckTruckPaintPaste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckTruckPaintPaste.Location = new System.Drawing.Point(3, 45);
             this.buttonShareTruckTruckPaintPaste.Name = "buttonShareTruckTruckPaintPaste";
-            this.buttonShareTruckTruckPaintPaste.Size = new System.Drawing.Size(177, 37);
+            this.buttonShareTruckTruckPaintPaste.Size = new System.Drawing.Size(211, 37);
             this.buttonShareTruckTruckPaintPaste.TabIndex = 1;
             this.buttonShareTruckTruckPaintPaste.Text = "Paste Paint Settings";
             this.buttonShareTruckTruckPaintPaste.UseVisualStyleBackColor = true;
@@ -1081,9 +1081,9 @@
             // 
             this.buttonShareTruckWholeTruckCopy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckWholeTruckCopy.Enabled = false;
-            this.buttonShareTruckWholeTruckCopy.Location = new System.Drawing.Point(370, 3);
+            this.buttonShareTruckWholeTruckCopy.Location = new System.Drawing.Point(437, 3);
             this.buttonShareTruckWholeTruckCopy.Name = "buttonShareTruckWholeTruckCopy";
-            this.buttonShareTruckWholeTruckCopy.Size = new System.Drawing.Size(179, 36);
+            this.buttonShareTruckWholeTruckCopy.Size = new System.Drawing.Size(212, 36);
             this.buttonShareTruckWholeTruckCopy.TabIndex = 3;
             this.buttonShareTruckWholeTruckCopy.Text = "Copy All Truck Settings";
             this.buttonShareTruckWholeTruckCopy.UseVisualStyleBackColor = true;
@@ -1092,9 +1092,9 @@
             // 
             this.buttonShareTruckTruckDetailsCopy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTruckTruckDetailsCopy.Enabled = false;
-            this.buttonShareTruckTruckDetailsCopy.Location = new System.Drawing.Point(186, 3);
+            this.buttonShareTruckTruckDetailsCopy.Location = new System.Drawing.Point(220, 3);
             this.buttonShareTruckTruckDetailsCopy.Name = "buttonShareTruckTruckDetailsCopy";
-            this.buttonShareTruckTruckDetailsCopy.Size = new System.Drawing.Size(178, 36);
+            this.buttonShareTruckTruckDetailsCopy.Size = new System.Drawing.Size(211, 36);
             this.buttonShareTruckTruckDetailsCopy.TabIndex = 2;
             this.buttonShareTruckTruckDetailsCopy.Text = "Copy Truck Datails";
             this.buttonShareTruckTruckDetailsCopy.UseVisualStyleBackColor = true;
@@ -1106,14 +1106,14 @@
             this.groupBoxUserTruckTruckDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxUserTruckTruckDetails.Location = new System.Drawing.Point(3, 107);
             this.groupBoxUserTruckTruckDetails.Name = "groupBoxUserTruckTruckDetails";
-            this.groupBoxUserTruckTruckDetails.Size = new System.Drawing.Size(558, 311);
+            this.groupBoxUserTruckTruckDetails.Size = new System.Drawing.Size(658, 311);
             this.groupBoxUserTruckTruckDetails.TabIndex = 25;
             this.groupBoxUserTruckTruckDetails.TabStop = false;
             this.groupBoxUserTruckTruckDetails.Text = "Details";
             // 
             // labelLicensePlate
             // 
-            this.labelLicensePlate.Location = new System.Drawing.Point(103, 268);
+            this.labelLicensePlate.Location = new System.Drawing.Point(131, 268);
             this.labelLicensePlate.Name = "labelLicensePlate";
             this.labelLicensePlate.Size = new System.Drawing.Size(200, 13);
             this.labelLicensePlate.TabIndex = 14;
@@ -1134,7 +1134,7 @@
             this.tabPageTrailer.Location = new System.Drawing.Point(4, 28);
             this.tabPageTrailer.Name = "tabPageTrailer";
             this.tabPageTrailer.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageTrailer.Size = new System.Drawing.Size(570, 537);
+            this.tabPageTrailer.Size = new System.Drawing.Size(670, 537);
             this.tabPageTrailer.TabIndex = 2;
             this.tabPageTrailer.Text = "Trailer";
             this.tabPageTrailer.UseVisualStyleBackColor = true;
@@ -1153,7 +1153,7 @@
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(564, 531);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(664, 531);
             this.tableLayoutPanel12.TabIndex = 32;
             // 
             // groupBoxUserTrailerShareTrailerSettings
@@ -1162,7 +1162,7 @@
             this.groupBoxUserTrailerShareTrailerSettings.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxUserTrailerShareTrailerSettings.Location = new System.Drawing.Point(3, 424);
             this.groupBoxUserTrailerShareTrailerSettings.Name = "groupBoxUserTrailerShareTrailerSettings";
-            this.groupBoxUserTrailerShareTrailerSettings.Size = new System.Drawing.Size(558, 104);
+            this.groupBoxUserTrailerShareTrailerSettings.Size = new System.Drawing.Size(658, 104);
             this.groupBoxUserTrailerShareTrailerSettings.TabIndex = 31;
             this.groupBoxUserTrailerShareTrailerSettings.TabStop = false;
             this.groupBoxUserTrailerShareTrailerSettings.Text = "Share Trailer Settings";
@@ -1185,16 +1185,16 @@
             this.tableLayoutPanel14.RowCount = 2;
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(552, 85);
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(652, 85);
             this.tableLayoutPanel14.TabIndex = 28;
             // 
             // buttonShareTrailerWholeTrailerPaste
             // 
             this.buttonShareTrailerWholeTrailerPaste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTrailerWholeTrailerPaste.Enabled = false;
-            this.buttonShareTrailerWholeTrailerPaste.Location = new System.Drawing.Point(370, 45);
+            this.buttonShareTrailerWholeTrailerPaste.Location = new System.Drawing.Point(437, 45);
             this.buttonShareTrailerWholeTrailerPaste.Name = "buttonShareTrailerWholeTrailerPaste";
-            this.buttonShareTrailerWholeTrailerPaste.Size = new System.Drawing.Size(179, 37);
+            this.buttonShareTrailerWholeTrailerPaste.Size = new System.Drawing.Size(212, 37);
             this.buttonShareTrailerWholeTrailerPaste.TabIndex = 5;
             this.buttonShareTrailerWholeTrailerPaste.Text = "Paste All Truck Settings";
             this.buttonShareTrailerWholeTrailerPaste.UseVisualStyleBackColor = true;
@@ -1205,7 +1205,7 @@
             this.buttonShareTrailerTrailerPaintCopy.Enabled = false;
             this.buttonShareTrailerTrailerPaintCopy.Location = new System.Drawing.Point(3, 3);
             this.buttonShareTrailerTrailerPaintCopy.Name = "buttonShareTrailerTrailerPaintCopy";
-            this.buttonShareTrailerTrailerPaintCopy.Size = new System.Drawing.Size(177, 36);
+            this.buttonShareTrailerTrailerPaintCopy.Size = new System.Drawing.Size(211, 36);
             this.buttonShareTrailerTrailerPaintCopy.TabIndex = 0;
             this.buttonShareTrailerTrailerPaintCopy.Text = "Copy Paint Settings";
             this.buttonShareTrailerTrailerPaintCopy.UseVisualStyleBackColor = true;
@@ -1214,9 +1214,9 @@
             // 
             this.buttonShareTrailerTrailerDetailsPaste.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTrailerTrailerDetailsPaste.Enabled = false;
-            this.buttonShareTrailerTrailerDetailsPaste.Location = new System.Drawing.Point(186, 45);
+            this.buttonShareTrailerTrailerDetailsPaste.Location = new System.Drawing.Point(220, 45);
             this.buttonShareTrailerTrailerDetailsPaste.Name = "buttonShareTrailerTrailerDetailsPaste";
-            this.buttonShareTrailerTrailerDetailsPaste.Size = new System.Drawing.Size(178, 37);
+            this.buttonShareTrailerTrailerDetailsPaste.Size = new System.Drawing.Size(211, 37);
             this.buttonShareTrailerTrailerDetailsPaste.TabIndex = 4;
             this.buttonShareTrailerTrailerDetailsPaste.Text = "Paste Truck Datails";
             this.buttonShareTrailerTrailerDetailsPaste.UseVisualStyleBackColor = true;
@@ -1227,7 +1227,7 @@
             this.buttonShareTrailerTrailerPaintPaste.Enabled = false;
             this.buttonShareTrailerTrailerPaintPaste.Location = new System.Drawing.Point(3, 45);
             this.buttonShareTrailerTrailerPaintPaste.Name = "buttonShareTrailerTrailerPaintPaste";
-            this.buttonShareTrailerTrailerPaintPaste.Size = new System.Drawing.Size(177, 37);
+            this.buttonShareTrailerTrailerPaintPaste.Size = new System.Drawing.Size(211, 37);
             this.buttonShareTrailerTrailerPaintPaste.TabIndex = 1;
             this.buttonShareTrailerTrailerPaintPaste.Text = "Paste Paint Settings";
             this.buttonShareTrailerTrailerPaintPaste.UseVisualStyleBackColor = true;
@@ -1236,9 +1236,9 @@
             // 
             this.buttonShareTrailerWholeTrailerCopy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTrailerWholeTrailerCopy.Enabled = false;
-            this.buttonShareTrailerWholeTrailerCopy.Location = new System.Drawing.Point(370, 3);
+            this.buttonShareTrailerWholeTrailerCopy.Location = new System.Drawing.Point(437, 3);
             this.buttonShareTrailerWholeTrailerCopy.Name = "buttonShareTrailerWholeTrailerCopy";
-            this.buttonShareTrailerWholeTrailerCopy.Size = new System.Drawing.Size(179, 36);
+            this.buttonShareTrailerWholeTrailerCopy.Size = new System.Drawing.Size(212, 36);
             this.buttonShareTrailerWholeTrailerCopy.TabIndex = 3;
             this.buttonShareTrailerWholeTrailerCopy.Text = "Copy All Truck Settings";
             this.buttonShareTrailerWholeTrailerCopy.UseVisualStyleBackColor = true;
@@ -1247,9 +1247,9 @@
             // 
             this.buttonShareTrailerTrailerDetailsCopy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonShareTrailerTrailerDetailsCopy.Enabled = false;
-            this.buttonShareTrailerTrailerDetailsCopy.Location = new System.Drawing.Point(186, 3);
+            this.buttonShareTrailerTrailerDetailsCopy.Location = new System.Drawing.Point(220, 3);
             this.buttonShareTrailerTrailerDetailsCopy.Name = "buttonShareTrailerTrailerDetailsCopy";
-            this.buttonShareTrailerTrailerDetailsCopy.Size = new System.Drawing.Size(178, 36);
+            this.buttonShareTrailerTrailerDetailsCopy.Size = new System.Drawing.Size(211, 36);
             this.buttonShareTrailerTrailerDetailsCopy.TabIndex = 2;
             this.buttonShareTrailerTrailerDetailsCopy.Text = "Copy Truck Datails";
             this.buttonShareTrailerTrailerDetailsCopy.UseVisualStyleBackColor = true;
@@ -1260,7 +1260,7 @@
             this.groupBoxUserTruckTrailer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBoxUserTruckTrailer.Location = new System.Drawing.Point(3, 3);
             this.groupBoxUserTruckTrailer.Name = "groupBoxUserTruckTrailer";
-            this.groupBoxUserTruckTrailer.Size = new System.Drawing.Size(558, 98);
+            this.groupBoxUserTruckTrailer.Size = new System.Drawing.Size(658, 98);
             this.groupBoxUserTruckTrailer.TabIndex = 0;
             this.groupBoxUserTruckTrailer.TabStop = false;
             this.groupBoxUserTruckTrailer.Text = "Trailer";
@@ -1282,7 +1282,7 @@
             this.tableLayoutPanel13.RowCount = 2;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(552, 79);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(652, 79);
             this.tableLayoutPanel13.TabIndex = 0;
             // 
             // comboBoxUserTrailerCompanyTrailers
@@ -1303,7 +1303,7 @@
             this.buttonUserTrailerSwitchCurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonUserTrailerSwitchCurrent.Location = new System.Drawing.Point(196, 33);
             this.buttonUserTrailerSwitchCurrent.Name = "buttonUserTrailerSwitchCurrent";
-            this.buttonUserTrailerSwitchCurrent.Size = new System.Drawing.Size(233, 43);
+            this.buttonUserTrailerSwitchCurrent.Size = new System.Drawing.Size(333, 43);
             this.buttonUserTrailerSwitchCurrent.TabIndex = 29;
             this.buttonUserTrailerSwitchCurrent.Text = "Set as Current Trailer";
             this.buttonUserTrailerSwitchCurrent.UseVisualStyleBackColor = true;
@@ -1383,7 +1383,7 @@
             this.tabPageFreightMarket.Location = new System.Drawing.Point(4, 28);
             this.tabPageFreightMarket.Name = "tabPageFreightMarket";
             this.tabPageFreightMarket.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageFreightMarket.Size = new System.Drawing.Size(570, 537);
+            this.tabPageFreightMarket.Size = new System.Drawing.Size(670, 537);
             this.tabPageFreightMarket.TabIndex = 3;
             this.tabPageFreightMarket.Text = "FreightMarket";
             this.tabPageFreightMarket.UseVisualStyleBackColor = true;
@@ -1391,7 +1391,7 @@
             // buttonFreightMarketCancelJobEdit
             // 
             this.buttonFreightMarketCancelJobEdit.Enabled = false;
-            this.buttonFreightMarketCancelJobEdit.Location = new System.Drawing.Point(250, 206);
+            this.buttonFreightMarketCancelJobEdit.Location = new System.Drawing.Point(292, 280);
             this.buttonFreightMarketCancelJobEdit.Name = "buttonFreightMarketCancelJobEdit";
             this.buttonFreightMarketCancelJobEdit.Size = new System.Drawing.Size(150, 23);
             this.buttonFreightMarketCancelJobEdit.TabIndex = 29;
@@ -1407,7 +1407,7 @@
             this.comboBoxFreightMarketTrailerVariant.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.comboBoxFreightMarketTrailerVariant.FormattingEnabled = true;
             this.comboBoxFreightMarketTrailerVariant.IntegralHeight = false;
-            this.comboBoxFreightMarketTrailerVariant.Location = new System.Drawing.Point(322, 154);
+            this.comboBoxFreightMarketTrailerVariant.Location = new System.Drawing.Point(360, 202);
             this.comboBoxFreightMarketTrailerVariant.Name = "comboBoxFreightMarketTrailerVariant";
             this.comboBoxFreightMarketTrailerVariant.Size = new System.Drawing.Size(234, 32);
             this.comboBoxFreightMarketTrailerVariant.TabIndex = 28;
@@ -1422,7 +1422,7 @@
             this.comboBoxFreightMarketTrailerDef.FormattingEnabled = true;
             this.comboBoxFreightMarketTrailerDef.IntegralHeight = false;
             this.comboBoxFreightMarketTrailerDef.ItemHeight = 24;
-            this.comboBoxFreightMarketTrailerDef.Location = new System.Drawing.Point(72, 154);
+            this.comboBoxFreightMarketTrailerDef.Location = new System.Drawing.Point(72, 202);
             this.comboBoxFreightMarketTrailerDef.Margin = new System.Windows.Forms.Padding(0);
             this.comboBoxFreightMarketTrailerDef.Name = "comboBoxFreightMarketTrailerDef";
             this.comboBoxFreightMarketTrailerDef.Size = new System.Drawing.Size(241, 32);
@@ -1434,7 +1434,7 @@
             // labelFreightMarketTrailer
             // 
             this.labelFreightMarketTrailer.AutoSize = true;
-            this.labelFreightMarketTrailer.Location = new System.Drawing.Point(6, 165);
+            this.labelFreightMarketTrailer.Location = new System.Drawing.Point(7, 213);
             this.labelFreightMarketTrailer.Name = "labelFreightMarketTrailer";
             this.labelFreightMarketTrailer.Size = new System.Drawing.Size(36, 13);
             this.labelFreightMarketTrailer.TabIndex = 26;
@@ -1443,7 +1443,7 @@
             // labelFreightMarketDistanceNumbers
             // 
             this.labelFreightMarketDistanceNumbers.AutoSize = true;
-            this.labelFreightMarketDistanceNumbers.Location = new System.Drawing.Point(102, 240);
+            this.labelFreightMarketDistanceNumbers.Location = new System.Drawing.Point(102, 290);
             this.labelFreightMarketDistanceNumbers.Name = "labelFreightMarketDistanceNumbers";
             this.labelFreightMarketDistanceNumbers.Size = new System.Drawing.Size(13, 13);
             this.labelFreightMarketDistanceNumbers.TabIndex = 25;
@@ -1451,7 +1451,7 @@
             // 
             // buttonFreightMarketRandomizeCargo
             // 
-            this.buttonFreightMarketRandomizeCargo.Location = new System.Drawing.Point(406, 206);
+            this.buttonFreightMarketRandomizeCargo.Location = new System.Drawing.Point(444, 249);
             this.buttonFreightMarketRandomizeCargo.Name = "buttonFreightMarketRandomizeCargo";
             this.buttonFreightMarketRandomizeCargo.Size = new System.Drawing.Size(150, 23);
             this.buttonFreightMarketRandomizeCargo.TabIndex = 24;
@@ -1462,7 +1462,7 @@
             // labelFreightMarketDistance
             // 
             this.labelFreightMarketDistance.AutoSize = true;
-            this.labelFreightMarketDistance.Location = new System.Drawing.Point(6, 240);
+            this.labelFreightMarketDistance.Location = new System.Drawing.Point(6, 290);
             this.labelFreightMarketDistance.Name = "labelFreightMarketDistance";
             this.labelFreightMarketDistance.Size = new System.Drawing.Size(90, 13);
             this.labelFreightMarketDistance.TabIndex = 23;
@@ -1472,10 +1472,10 @@
             // 
             this.listBoxFreightMarketAddedJobs.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listBoxFreightMarketAddedJobs.FormattingEnabled = true;
-            this.listBoxFreightMarketAddedJobs.Location = new System.Drawing.Point(3, 270);
+            this.listBoxFreightMarketAddedJobs.Location = new System.Drawing.Point(3, 309);
             this.listBoxFreightMarketAddedJobs.Name = "listBoxFreightMarketAddedJobs";
             this.listBoxFreightMarketAddedJobs.ScrollAlwaysVisible = true;
-            this.listBoxFreightMarketAddedJobs.Size = new System.Drawing.Size(564, 264);
+            this.listBoxFreightMarketAddedJobs.Size = new System.Drawing.Size(664, 225);
             this.listBoxFreightMarketAddedJobs.TabIndex = 22;
             this.listBoxFreightMarketAddedJobs.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.listBoxAddedJobs_DrawItem);
             this.listBoxFreightMarketAddedJobs.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.listBoxAddedJobs_MeasureItem);
@@ -1495,7 +1495,7 @@
             // checkBoxFreightMarketFilterDestination
             // 
             this.checkBoxFreightMarketFilterDestination.AutoSize = true;
-            this.checkBoxFreightMarketFilterDestination.Location = new System.Drawing.Point(444, 91);
+            this.checkBoxFreightMarketFilterDestination.Location = new System.Drawing.Point(444, 121);
             this.checkBoxFreightMarketFilterDestination.Name = "checkBoxFreightMarketFilterDestination";
             this.checkBoxFreightMarketFilterDestination.Size = new System.Drawing.Size(48, 17);
             this.checkBoxFreightMarketFilterDestination.TabIndex = 20;
@@ -1505,7 +1505,7 @@
             // checkBoxFreightMarketFilterSource
             // 
             this.checkBoxFreightMarketFilterSource.AutoSize = true;
-            this.checkBoxFreightMarketFilterSource.Location = new System.Drawing.Point(444, 64);
+            this.checkBoxFreightMarketFilterSource.Location = new System.Drawing.Point(444, 83);
             this.checkBoxFreightMarketFilterSource.Name = "checkBoxFreightMarketFilterSource";
             this.checkBoxFreightMarketFilterSource.Size = new System.Drawing.Size(48, 17);
             this.checkBoxFreightMarketFilterSource.TabIndex = 19;
@@ -1559,7 +1559,7 @@
             // 
             // buttonFreightMarketClearJobList
             // 
-            this.buttonFreightMarketClearJobList.Location = new System.Drawing.Point(406, 235);
+            this.buttonFreightMarketClearJobList.Location = new System.Drawing.Point(444, 280);
             this.buttonFreightMarketClearJobList.Name = "buttonFreightMarketClearJobList";
             this.buttonFreightMarketClearJobList.Size = new System.Drawing.Size(150, 23);
             this.buttonFreightMarketClearJobList.TabIndex = 13;
@@ -1569,9 +1569,9 @@
             // 
             // buttonFreightMarketAddJob
             // 
-            this.buttonFreightMarketAddJob.Location = new System.Drawing.Point(6, 206);
+            this.buttonFreightMarketAddJob.Location = new System.Drawing.Point(72, 249);
             this.buttonFreightMarketAddJob.Name = "buttonFreightMarketAddJob";
-            this.buttonFreightMarketAddJob.Size = new System.Drawing.Size(394, 23);
+            this.buttonFreightMarketAddJob.Size = new System.Drawing.Size(370, 23);
             this.buttonFreightMarketAddJob.TabIndex = 12;
             this.buttonFreightMarketAddJob.Text = "Add Job to list";
             this.buttonFreightMarketAddJob.UseVisualStyleBackColor = true;
@@ -1580,7 +1580,7 @@
             // labelFreightMarketUrgency
             // 
             this.labelFreightMarketUrgency.AutoSize = true;
-            this.labelFreightMarketUrgency.Location = new System.Drawing.Point(319, 127);
+            this.labelFreightMarketUrgency.Location = new System.Drawing.Point(357, 167);
             this.labelFreightMarketUrgency.Name = "labelFreightMarketUrgency";
             this.labelFreightMarketUrgency.Size = new System.Drawing.Size(47, 13);
             this.labelFreightMarketUrgency.TabIndex = 11;
@@ -1593,9 +1593,9 @@
             this.comboBoxFreightMarketUrgency.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxFreightMarketUrgency.FormattingEnabled = true;
             this.comboBoxFreightMarketUrgency.IntegralHeight = false;
-            this.comboBoxFreightMarketUrgency.Location = new System.Drawing.Point(406, 116);
+            this.comboBoxFreightMarketUrgency.Location = new System.Drawing.Point(425, 159);
             this.comboBoxFreightMarketUrgency.Name = "comboBoxFreightMarketUrgency";
-            this.comboBoxFreightMarketUrgency.Size = new System.Drawing.Size(150, 32);
+            this.comboBoxFreightMarketUrgency.Size = new System.Drawing.Size(169, 32);
             this.comboBoxFreightMarketUrgency.TabIndex = 10;
             this.comboBoxFreightMarketUrgency.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBoxFreightMarketUrgency_DrawItem);
             this.comboBoxFreightMarketUrgency.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.comboBoxFreightMarketUrgency_MeasureItem);
@@ -1603,7 +1603,7 @@
             // labelFreightMarketCargo
             // 
             this.labelFreightMarketCargo.AutoSize = true;
-            this.labelFreightMarketCargo.Location = new System.Drawing.Point(6, 127);
+            this.labelFreightMarketCargo.Location = new System.Drawing.Point(7, 170);
             this.labelFreightMarketCargo.Name = "labelFreightMarketCargo";
             this.labelFreightMarketCargo.Size = new System.Drawing.Size(35, 13);
             this.labelFreightMarketCargo.TabIndex = 9;
@@ -1617,7 +1617,7 @@
             this.comboBoxFreightMarketCargoList.FormattingEnabled = true;
             this.comboBoxFreightMarketCargoList.IntegralHeight = false;
             this.comboBoxFreightMarketCargoList.ItemHeight = 24;
-            this.comboBoxFreightMarketCargoList.Location = new System.Drawing.Point(72, 116);
+            this.comboBoxFreightMarketCargoList.Location = new System.Drawing.Point(72, 159);
             this.comboBoxFreightMarketCargoList.Name = "comboBoxFreightMarketCargoList";
             this.comboBoxFreightMarketCargoList.Size = new System.Drawing.Size(241, 32);
             this.comboBoxFreightMarketCargoList.TabIndex = 8;
@@ -1628,7 +1628,7 @@
             // comboBoxFreightMarketDestinationCompany
             // 
             this.comboBoxFreightMarketDestinationCompany.FormattingEnabled = true;
-            this.comboBoxFreightMarketDestinationCompany.Location = new System.Drawing.Point(258, 89);
+            this.comboBoxFreightMarketDestinationCompany.Location = new System.Drawing.Point(258, 117);
             this.comboBoxFreightMarketDestinationCompany.Name = "comboBoxFreightMarketDestinationCompany";
             this.comboBoxFreightMarketDestinationCompany.Size = new System.Drawing.Size(180, 21);
             this.comboBoxFreightMarketDestinationCompany.TabIndex = 7;
@@ -1637,7 +1637,7 @@
             // labelFreightMarketDestination
             // 
             this.labelFreightMarketDestination.AutoSize = true;
-            this.labelFreightMarketDestination.Location = new System.Drawing.Point(6, 92);
+            this.labelFreightMarketDestination.Location = new System.Drawing.Point(7, 120);
             this.labelFreightMarketDestination.Name = "labelFreightMarketDestination";
             this.labelFreightMarketDestination.Size = new System.Drawing.Size(60, 13);
             this.labelFreightMarketDestination.TabIndex = 6;
@@ -1646,7 +1646,7 @@
             // comboBoxFreightMarketDestinationCity
             // 
             this.comboBoxFreightMarketDestinationCity.FormattingEnabled = true;
-            this.comboBoxFreightMarketDestinationCity.Location = new System.Drawing.Point(72, 89);
+            this.comboBoxFreightMarketDestinationCity.Location = new System.Drawing.Point(72, 117);
             this.comboBoxFreightMarketDestinationCity.Name = "comboBoxFreightMarketDestinationCity";
             this.comboBoxFreightMarketDestinationCity.Size = new System.Drawing.Size(180, 21);
             this.comboBoxFreightMarketDestinationCity.TabIndex = 5;
@@ -1655,7 +1655,7 @@
             // labelFreightMarketCompany
             // 
             this.labelFreightMarketCompany.AutoSize = true;
-            this.labelFreightMarketCompany.Location = new System.Drawing.Point(255, 46);
+            this.labelFreightMarketCompany.Location = new System.Drawing.Point(255, 65);
             this.labelFreightMarketCompany.Name = "labelFreightMarketCompany";
             this.labelFreightMarketCompany.Size = new System.Drawing.Size(51, 13);
             this.labelFreightMarketCompany.TabIndex = 4;
@@ -1664,7 +1664,7 @@
             // labelFreightMarketCity
             // 
             this.labelFreightMarketCity.AutoSize = true;
-            this.labelFreightMarketCity.Location = new System.Drawing.Point(72, 46);
+            this.labelFreightMarketCity.Location = new System.Drawing.Point(72, 65);
             this.labelFreightMarketCity.Name = "labelFreightMarketCity";
             this.labelFreightMarketCity.Size = new System.Drawing.Size(24, 13);
             this.labelFreightMarketCity.TabIndex = 3;
@@ -1673,7 +1673,7 @@
             // comboBoxFreightMarketSourceCompany
             // 
             this.comboBoxFreightMarketSourceCompany.FormattingEnabled = true;
-            this.comboBoxFreightMarketSourceCompany.Location = new System.Drawing.Point(258, 62);
+            this.comboBoxFreightMarketSourceCompany.Location = new System.Drawing.Point(258, 81);
             this.comboBoxFreightMarketSourceCompany.Name = "comboBoxFreightMarketSourceCompany";
             this.comboBoxFreightMarketSourceCompany.Size = new System.Drawing.Size(180, 21);
             this.comboBoxFreightMarketSourceCompany.TabIndex = 2;
@@ -1682,7 +1682,7 @@
             // labelFreightMarketSource
             // 
             this.labelFreightMarketSource.AutoSize = true;
-            this.labelFreightMarketSource.Location = new System.Drawing.Point(6, 65);
+            this.labelFreightMarketSource.Location = new System.Drawing.Point(7, 84);
             this.labelFreightMarketSource.Name = "labelFreightMarketSource";
             this.labelFreightMarketSource.Size = new System.Drawing.Size(41, 13);
             this.labelFreightMarketSource.TabIndex = 1;
@@ -1691,7 +1691,7 @@
             // comboBoxFreightMarketSourceCity
             // 
             this.comboBoxFreightMarketSourceCity.FormattingEnabled = true;
-            this.comboBoxFreightMarketSourceCity.Location = new System.Drawing.Point(72, 62);
+            this.comboBoxFreightMarketSourceCity.Location = new System.Drawing.Point(72, 81);
             this.comboBoxFreightMarketSourceCity.Name = "comboBoxFreightMarketSourceCity";
             this.comboBoxFreightMarketSourceCity.Size = new System.Drawing.Size(180, 21);
             this.comboBoxFreightMarketSourceCity.TabIndex = 0;
@@ -1715,7 +1715,7 @@
             this.tabPageCargoMarket.Controls.Add(this.comboBoxSourceCargoMarketCompany);
             this.tabPageCargoMarket.Location = new System.Drawing.Point(4, 28);
             this.tabPageCargoMarket.Name = "tabPageCargoMarket";
-            this.tabPageCargoMarket.Size = new System.Drawing.Size(570, 537);
+            this.tabPageCargoMarket.Size = new System.Drawing.Size(670, 537);
             this.tabPageCargoMarket.TabIndex = 6;
             this.tabPageCargoMarket.Text = "CargoMarket";
             this.tabPageCargoMarket.UseVisualStyleBackColor = true;
@@ -1723,17 +1723,16 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(3, 258);
+            this.label1.Location = new System.Drawing.Point(-3, 306);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(562, 202);
             this.label1.TabIndex = 20;
-            this.label1.Text = "Work In Progres";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelCMTrailerType
             // 
             this.labelCMTrailerType.AutoSize = true;
-            this.labelCMTrailerType.Location = new System.Drawing.Point(3, 265);
+            this.labelCMTrailerType.Location = new System.Drawing.Point(-3, 313);
             this.labelCMTrailerType.Name = "labelCMTrailerType";
             this.labelCMTrailerType.Size = new System.Drawing.Size(63, 13);
             this.labelCMTrailerType.TabIndex = 19;
@@ -1742,7 +1741,7 @@
             // comboBoxCMTrailerTypes
             // 
             this.comboBoxCMTrailerTypes.FormattingEnabled = true;
-            this.comboBoxCMTrailerTypes.Location = new System.Drawing.Point(72, 262);
+            this.comboBoxCMTrailerTypes.Location = new System.Drawing.Point(66, 310);
             this.comboBoxCMTrailerTypes.Name = "comboBoxCMTrailerTypes";
             this.comboBoxCMTrailerTypes.Size = new System.Drawing.Size(161, 21);
             this.comboBoxCMTrailerTypes.TabIndex = 18;
@@ -1750,7 +1749,7 @@
             // 
             // buttonCargoMarketRandomizeCargoCompany
             // 
-            this.buttonCargoMarketRandomizeCargoCompany.Location = new System.Drawing.Point(239, 79);
+            this.buttonCargoMarketRandomizeCargoCompany.Location = new System.Drawing.Point(357, 124);
             this.buttonCargoMarketRandomizeCargoCompany.Name = "buttonCargoMarketRandomizeCargoCompany";
             this.buttonCargoMarketRandomizeCargoCompany.Size = new System.Drawing.Size(161, 23);
             this.buttonCargoMarketRandomizeCargoCompany.TabIndex = 16;
@@ -1760,7 +1759,7 @@
             // 
             // buttonCargoMarketRandomizeCargoCity
             // 
-            this.buttonCargoMarketRandomizeCargoCity.Location = new System.Drawing.Point(72, 79);
+            this.buttonCargoMarketRandomizeCargoCity.Location = new System.Drawing.Point(132, 124);
             this.buttonCargoMarketRandomizeCargoCity.Name = "buttonCargoMarketRandomizeCargoCity";
             this.buttonCargoMarketRandomizeCargoCity.Size = new System.Drawing.Size(161, 23);
             this.buttonCargoMarketRandomizeCargoCity.TabIndex = 15;
@@ -1770,7 +1769,7 @@
             // 
             // buttonCargoMarketResetCargoCompany
             // 
-            this.buttonCargoMarketResetCargoCompany.Location = new System.Drawing.Point(239, 50);
+            this.buttonCargoMarketResetCargoCompany.Location = new System.Drawing.Point(357, 95);
             this.buttonCargoMarketResetCargoCompany.Name = "buttonCargoMarketResetCargoCompany";
             this.buttonCargoMarketResetCargoCompany.Size = new System.Drawing.Size(161, 23);
             this.buttonCargoMarketResetCargoCompany.TabIndex = 14;
@@ -1780,7 +1779,7 @@
             // 
             // buttonCargoMarketResetCargoCity
             // 
-            this.buttonCargoMarketResetCargoCity.Location = new System.Drawing.Point(72, 50);
+            this.buttonCargoMarketResetCargoCity.Location = new System.Drawing.Point(132, 95);
             this.buttonCargoMarketResetCargoCity.Name = "buttonCargoMarketResetCargoCity";
             this.buttonCargoMarketResetCargoCity.Size = new System.Drawing.Size(161, 23);
             this.buttonCargoMarketResetCargoCity.TabIndex = 13;
@@ -1791,7 +1790,7 @@
             // listBoxCargoMarketCargoListForCompany
             // 
             this.listBoxCargoMarketCargoListForCompany.FormattingEnabled = true;
-            this.listBoxCargoMarketCargoListForCompany.Location = new System.Drawing.Point(239, 261);
+            this.listBoxCargoMarketCargoListForCompany.Location = new System.Drawing.Point(233, 309);
             this.listBoxCargoMarketCargoListForCompany.Name = "listBoxCargoMarketCargoListForCompany";
             this.listBoxCargoMarketCargoListForCompany.Size = new System.Drawing.Size(161, 199);
             this.listBoxCargoMarketCargoListForCompany.Sorted = true;
@@ -1800,15 +1799,15 @@
             // listBoxCargoMarketSourceCargoSeeds
             // 
             this.listBoxCargoMarketSourceCargoSeeds.FormattingEnabled = true;
-            this.listBoxCargoMarketSourceCargoSeeds.Location = new System.Drawing.Point(72, 108);
+            this.listBoxCargoMarketSourceCargoSeeds.Location = new System.Drawing.Point(66, 156);
             this.listBoxCargoMarketSourceCargoSeeds.Name = "listBoxCargoMarketSourceCargoSeeds";
-            this.listBoxCargoMarketSourceCargoSeeds.Size = new System.Drawing.Size(328, 147);
+            this.listBoxCargoMarketSourceCargoSeeds.Size = new System.Drawing.Size(549, 147);
             this.listBoxCargoMarketSourceCargoSeeds.TabIndex = 7;
             // 
             // labelCargoMarketSource
             // 
             this.labelCargoMarketSource.AutoSize = true;
-            this.labelCargoMarketSource.Location = new System.Drawing.Point(3, 28);
+            this.labelCargoMarketSource.Location = new System.Drawing.Point(63, 73);
             this.labelCargoMarketSource.Name = "labelCargoMarketSource";
             this.labelCargoMarketSource.Size = new System.Drawing.Size(41, 13);
             this.labelCargoMarketSource.TabIndex = 6;
@@ -1817,7 +1816,7 @@
             // labelCargoMarketCompany
             // 
             this.labelCargoMarketCompany.AutoSize = true;
-            this.labelCargoMarketCompany.Location = new System.Drawing.Point(239, 6);
+            this.labelCargoMarketCompany.Location = new System.Drawing.Point(357, 51);
             this.labelCargoMarketCompany.Name = "labelCargoMarketCompany";
             this.labelCargoMarketCompany.Size = new System.Drawing.Size(51, 13);
             this.labelCargoMarketCompany.TabIndex = 5;
@@ -1826,7 +1825,7 @@
             // comboBoxCargoMarketSourceCity
             // 
             this.comboBoxCargoMarketSourceCity.FormattingEnabled = true;
-            this.comboBoxCargoMarketSourceCity.Location = new System.Drawing.Point(72, 22);
+            this.comboBoxCargoMarketSourceCity.Location = new System.Drawing.Point(132, 67);
             this.comboBoxCargoMarketSourceCity.Name = "comboBoxCargoMarketSourceCity";
             this.comboBoxCargoMarketSourceCity.Size = new System.Drawing.Size(161, 21);
             this.comboBoxCargoMarketSourceCity.TabIndex = 2;
@@ -1835,7 +1834,7 @@
             // labelCargoMarketCity
             // 
             this.labelCargoMarketCity.AutoSize = true;
-            this.labelCargoMarketCity.Location = new System.Drawing.Point(72, 6);
+            this.labelCargoMarketCity.Location = new System.Drawing.Point(132, 51);
             this.labelCargoMarketCity.Name = "labelCargoMarketCity";
             this.labelCargoMarketCity.Size = new System.Drawing.Size(24, 13);
             this.labelCargoMarketCity.TabIndex = 1;
@@ -1844,7 +1843,7 @@
             // comboBoxSourceCargoMarketCompany
             // 
             this.comboBoxSourceCargoMarketCompany.FormattingEnabled = true;
-            this.comboBoxSourceCargoMarketCompany.Location = new System.Drawing.Point(239, 22);
+            this.comboBoxSourceCargoMarketCompany.Location = new System.Drawing.Point(357, 67);
             this.comboBoxSourceCargoMarketCompany.Name = "comboBoxSourceCargoMarketCompany";
             this.comboBoxSourceCargoMarketCompany.Size = new System.Drawing.Size(161, 21);
             this.comboBoxSourceCargoMarketCompany.TabIndex = 0;
@@ -1857,7 +1856,7 @@
             this.tabPageConvoyTools.Location = new System.Drawing.Point(4, 28);
             this.tabPageConvoyTools.Name = "tabPageConvoyTools";
             this.tabPageConvoyTools.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageConvoyTools.Size = new System.Drawing.Size(570, 537);
+            this.tabPageConvoyTools.Size = new System.Drawing.Size(670, 537);
             this.tabPageConvoyTools.TabIndex = 4;
             this.tabPageConvoyTools.Text = "Convoy Control";
             this.tabPageConvoyTools.UseVisualStyleBackColor = true;
@@ -1865,11 +1864,10 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(6, 67);
+            this.label5.Location = new System.Drawing.Point(53, 156);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(552, 247);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Work In Progres";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
@@ -1877,13 +1875,13 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSCurrentPositionCopy, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSCurrentPositionPaste, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSStoredGPSPathCopy, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSStoredGPSPathPaste, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSTruckPositionMultySavePaste, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSTruckPositionMultySaveCopy, 0, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 6);
+            this.tableLayoutPanel1.Controls.Add(this.buttonConvoyToolsGPSCurrentPositionCopy, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(53, 44);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1896,7 +1894,7 @@
             // 
             this.buttonConvoyToolsGPSCurrentPositionCopy.Location = new System.Drawing.Point(3, 3);
             this.buttonConvoyToolsGPSCurrentPositionCopy.Name = "buttonConvoyToolsGPSCurrentPositionCopy";
-            this.buttonConvoyToolsGPSCurrentPositionCopy.Size = new System.Drawing.Size(269, 23);
+            this.buttonConvoyToolsGPSCurrentPositionCopy.Size = new System.Drawing.Size(269, 40);
             this.buttonConvoyToolsGPSCurrentPositionCopy.TabIndex = 2;
             this.buttonConvoyToolsGPSCurrentPositionCopy.Text = "Copy current position";
             this.buttonConvoyToolsGPSCurrentPositionCopy.UseVisualStyleBackColor = true;
@@ -1906,7 +1904,7 @@
             // 
             this.buttonConvoyToolsGPSCurrentPositionPaste.Location = new System.Drawing.Point(279, 3);
             this.buttonConvoyToolsGPSCurrentPositionPaste.Name = "buttonConvoyToolsGPSCurrentPositionPaste";
-            this.buttonConvoyToolsGPSCurrentPositionPaste.Size = new System.Drawing.Size(269, 23);
+            this.buttonConvoyToolsGPSCurrentPositionPaste.Size = new System.Drawing.Size(269, 40);
             this.buttonConvoyToolsGPSCurrentPositionPaste.TabIndex = 3;
             this.buttonConvoyToolsGPSCurrentPositionPaste.Text = "Paste current position";
             this.buttonConvoyToolsGPSCurrentPositionPaste.UseVisualStyleBackColor = true;
@@ -1914,9 +1912,9 @@
             // 
             // buttonConvoyToolsGPSStoredGPSPathCopy
             // 
-            this.buttonConvoyToolsGPSStoredGPSPathCopy.Location = new System.Drawing.Point(3, 32);
+            this.buttonConvoyToolsGPSStoredGPSPathCopy.Location = new System.Drawing.Point(3, 49);
             this.buttonConvoyToolsGPSStoredGPSPathCopy.Name = "buttonConvoyToolsGPSStoredGPSPathCopy";
-            this.buttonConvoyToolsGPSStoredGPSPathCopy.Size = new System.Drawing.Size(269, 23);
+            this.buttonConvoyToolsGPSStoredGPSPathCopy.Size = new System.Drawing.Size(269, 60);
             this.buttonConvoyToolsGPSStoredGPSPathCopy.TabIndex = 0;
             this.buttonConvoyToolsGPSStoredGPSPathCopy.Text = "Copy GPS path";
             this.buttonConvoyToolsGPSStoredGPSPathCopy.UseVisualStyleBackColor = true;
@@ -1924,9 +1922,9 @@
             // 
             // buttonConvoyToolsGPSStoredGPSPathPaste
             // 
-            this.buttonConvoyToolsGPSStoredGPSPathPaste.Location = new System.Drawing.Point(279, 32);
+            this.buttonConvoyToolsGPSStoredGPSPathPaste.Location = new System.Drawing.Point(279, 49);
             this.buttonConvoyToolsGPSStoredGPSPathPaste.Name = "buttonConvoyToolsGPSStoredGPSPathPaste";
-            this.buttonConvoyToolsGPSStoredGPSPathPaste.Size = new System.Drawing.Size(269, 23);
+            this.buttonConvoyToolsGPSStoredGPSPathPaste.Size = new System.Drawing.Size(269, 60);
             this.buttonConvoyToolsGPSStoredGPSPathPaste.TabIndex = 1;
             this.buttonConvoyToolsGPSStoredGPSPathPaste.Text = "Paste GPS path";
             this.buttonConvoyToolsGPSStoredGPSPathPaste.UseVisualStyleBackColor = true;
@@ -1936,7 +1934,7 @@
             // 
             this.buttonConvoyToolsGPSTruckPositionMultySavePaste.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonConvoyToolsGPSTruckPositionMultySavePaste.Location = new System.Drawing.Point(279, 61);
+            this.buttonConvoyToolsGPSTruckPositionMultySavePaste.Location = new System.Drawing.Point(279, 115);
             this.buttonConvoyToolsGPSTruckPositionMultySavePaste.Name = "buttonConvoyToolsGPSTruckPositionMultySavePaste";
             this.buttonConvoyToolsGPSTruckPositionMultySavePaste.Size = new System.Drawing.Size(270, 52);
             this.buttonConvoyToolsGPSTruckPositionMultySavePaste.TabIndex = 5;
@@ -1948,7 +1946,7 @@
             this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.Location = new System.Drawing.Point(3, 61);
+            this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.Location = new System.Drawing.Point(3, 115);
             this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.Name = "buttonConvoyToolsGPSTruckPositionMultySaveCopy";
             this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.Size = new System.Drawing.Size(270, 55);
             this.buttonConvoyToolsGPSTruckPositionMultySaveCopy.TabIndex = 4;
@@ -2009,7 +2007,7 @@
             this.toolStripProgressBarMain});
             this.statusStripMain.Location = new System.Drawing.Point(0, 599);
             this.statusStripMain.Name = "statusStripMain";
-            this.statusStripMain.Size = new System.Drawing.Size(834, 22);
+            this.statusStripMain.Size = new System.Drawing.Size(934, 22);
             this.statusStripMain.TabIndex = 9;
             this.statusStripMain.Text = "statusStrip1";
             // 
@@ -2029,6 +2027,7 @@
             this.toolStripProgressBarMain.Size = new System.Drawing.Size(200, 16);
             this.toolStripProgressBarMain.Step = 1;
             this.toolStripProgressBarMain.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.toolStripProgressBarMain.Click += new System.EventHandler(this.ToolStripProgressBarMain_Click);
             // 
             // buttonMainLoadSave
             // 
@@ -2052,17 +2051,17 @@
             this.pictureBoxProfileAvatar.TabIndex = 12;
             this.pictureBoxProfileAvatar.TabStop = false;
             // 
-            // buttonMainAddCustomFolder
+            // buttonMainGameSwitchCustomFolder
             // 
-            this.tableLayoutPanel10.SetColumnSpan(this.buttonMainAddCustomFolder, 2);
-            this.buttonMainAddCustomFolder.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonMainAddCustomFolder.Location = new System.Drawing.Point(3, 55);
-            this.buttonMainAddCustomFolder.Name = "buttonMainAddCustomFolder";
-            this.buttonMainAddCustomFolder.Size = new System.Drawing.Size(238, 22);
-            this.buttonMainAddCustomFolder.TabIndex = 14;
-            this.buttonMainAddCustomFolder.Text = "Add Custom Folder";
-            this.buttonMainAddCustomFolder.UseVisualStyleBackColor = true;
-            this.buttonMainAddCustomFolder.Click += new System.EventHandler(this.buttonMainAddCustomFolder_Click);
+            this.tableLayoutPanel10.SetColumnSpan(this.buttonMainGameSwitchCustomFolder, 2);
+            this.buttonMainGameSwitchCustomFolder.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonMainGameSwitchCustomFolder.Location = new System.Drawing.Point(3, 55);
+            this.buttonMainGameSwitchCustomFolder.Name = "buttonMainGameSwitchCustomFolder";
+            this.buttonMainGameSwitchCustomFolder.Size = new System.Drawing.Size(238, 22);
+            this.buttonMainGameSwitchCustomFolder.TabIndex = 14;
+            this.buttonMainGameSwitchCustomFolder.Text = "Add Custom Folder";
+            this.buttonMainGameSwitchCustomFolder.UseVisualStyleBackColor = true;
+            this.buttonMainGameSwitchCustomFolder.Click += new System.EventHandler(this.buttonMainAddCustomFolder_Click);
             // 
             // comboBoxPrevProfiles
             // 
@@ -2116,7 +2115,7 @@
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
             this.tableLayoutPanel15.RowCount = 1;
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(834, 575);
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(934, 575);
             this.tableLayoutPanel15.TabIndex = 10;
             // 
             // tableLayoutPanel16
@@ -2128,7 +2127,7 @@
             this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel11, 0, 2);
             this.tableLayoutPanel16.Controls.Add(this.buttonMainWriteSave, 0, 4);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(585, 1);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(685, 1);
             this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(1, 1, 5, 1);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
             this.tableLayoutPanel16.RowCount = 5;
@@ -2145,7 +2144,7 @@
             this.tableLayoutPanel10.ColumnCount = 2;
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Controls.Add(this.buttonMainAddCustomFolder, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.buttonMainGameSwitchCustomFolder, 0, 1);
             this.tableLayoutPanel10.Controls.Add(this.radioButtonMainGameSwitchETS, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.radioButtonMainGameSwitchATS, 1, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -2213,17 +2212,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 621);
+            this.ClientSize = new System.Drawing.Size(934, 621);
             this.Controls.Add(this.tableLayoutPanel15);
             this.Controls.Add(this.statusStripMain);
             this.Controls.Add(this.menuStripMain);
             this.MainMenuStrip = this.menuStripMain;
-            this.MaximumSize = new System.Drawing.Size(850, 660);
-            this.MinimumSize = new System.Drawing.Size(850, 660);
+            this.MaximumSize = new System.Drawing.Size(950, 660);
+            this.MinimumSize = new System.Drawing.Size(950, 660);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TS SE Tool";
+            this.Text = "TS SE Tool - Wykop Edition";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.Shown += new System.EventHandler(this.FormMain_Shown);
             this.menuStripMain.ResumeLayout(false);
             this.menuStripMain.PerformLayout();
@@ -2319,7 +2319,7 @@
         private System.Windows.Forms.ComboBox comboBoxFreightMarketUrgency;
         private System.Windows.Forms.Label labelFreightMarketCargo;
         private System.Windows.Forms.ComboBox comboBoxFreightMarketCargoList;
-        private System.Windows.Forms.Button buttonMainAddCustomFolder;
+        private System.Windows.Forms.Button buttonMainGameSwitchCustomFolder;
         private System.Windows.Forms.ComboBox comboBoxFreightMarketCompanies;
         private System.Windows.Forms.ComboBox comboBoxFreightMarketCountries;
         private System.Windows.Forms.Label labelFreightMarketFilterMain;

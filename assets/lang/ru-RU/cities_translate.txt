@@ -1,0 +1,5 @@
+berlin;Берлин
+calais;Кале
+brussel;Брюссель
+dusseldorf;Дюссельдорф
+dortmund;Дортмунд

@@ -1,0 +1,42 @@
+AlandIsland;Аландские острова
+All;Все
+Andora;Андора
+Arizona;Аризона
+Austria;Австрия
+Belarus;Беларусь
+Belgium;Бельгия
+Bulgaria;Болгария
+California;Калифорния
+Croatia;Хорватия
+Czech;Чeшская Респyблика
+Denmark;Дания
+England;Великобритания
+Estonia;Эстония
+Faroe Island;Фарерские о-ва
+Finland;Финляндия
+France;Франция
+Germany;Германия
+Hungary;Венгрия
+Iceland;Исландия
+Ireland;Ирландия
+Italy;Италия
+Latvia;Латвия
+Lichtenstein;Lichtenstein
+Lithuania;Литва
+Luxembourg;Люксембург
+Moldovia;Модавия
+Netherlands;Нидерланды
+Nevada;Невада
+New Mexico;Нью-Мексико
+Norway;Норвегия
+Oregon;Орегон
+Poland;Польша
+Romania;Румыния
+Russia;Россия
+Serbia;Сербия
+Slovakia;Словакия
+Slovenia;Словения
+Spain;Испания
+Sweden;Швеция
+Switzerland;Швейцария
+Ukraine;Украина

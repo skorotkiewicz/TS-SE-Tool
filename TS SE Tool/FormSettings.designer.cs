@@ -102,18 +102,18 @@
             // comboBoxSettingDistanceMesSelect
             // 
             this.comboBoxSettingDistanceMesSelect.FormattingEnabled = true;
-            this.comboBoxSettingDistanceMesSelect.Location = new System.Drawing.Point(217, 70);
+            this.comboBoxSettingDistanceMesSelect.Location = new System.Drawing.Point(181, 69);
             this.comboBoxSettingDistanceMesSelect.Name = "comboBoxSettingDistanceMesSelect";
-            this.comboBoxSettingDistanceMesSelect.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSettingDistanceMesSelect.Size = new System.Drawing.Size(157, 21);
             this.comboBoxSettingDistanceMesSelect.TabIndex = 10;
             // 
             // comboBoxSettingCurrencySelect
             // 
             this.comboBoxSettingCurrencySelect.Enabled = false;
             this.comboBoxSettingCurrencySelect.FormattingEnabled = true;
-            this.comboBoxSettingCurrencySelect.Location = new System.Drawing.Point(217, 97);
+            this.comboBoxSettingCurrencySelect.Location = new System.Drawing.Point(181, 97);
             this.comboBoxSettingCurrencySelect.Name = "comboBoxSettingCurrencySelect";
-            this.comboBoxSettingCurrencySelect.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSettingCurrencySelect.Size = new System.Drawing.Size(157, 21);
             this.comboBoxSettingCurrencySelect.TabIndex = 9;
             this.comboBoxSettingCurrencySelect.Visible = false;
             // 
@@ -130,7 +130,7 @@
             // labelCity
             // 
             this.labelCity.AutoSize = true;
-            this.labelCity.Location = new System.Drawing.Point(263, 45);
+            this.labelCity.Location = new System.Drawing.Point(227, 45);
             this.labelCity.Name = "labelCity";
             this.labelCity.Size = new System.Drawing.Size(23, 13);
             this.labelCity.TabIndex = 7;
@@ -139,24 +139,24 @@
             // labelDayShort
             // 
             this.labelDayShort.AutoSize = true;
-            this.labelDayShort.Location = new System.Drawing.Point(264, 14);
+            this.labelDayShort.Location = new System.Drawing.Point(228, 14);
             this.labelDayShort.Name = "labelDayShort";
-            this.labelDayShort.Size = new System.Drawing.Size(15, 13);
+            this.labelDayShort.Size = new System.Drawing.Size(24, 13);
             this.labelDayShort.TabIndex = 6;
-            this.labelDayShort.Text = "D";
+            this.labelDayShort.Text = "day";
             // 
             // labelHourShort
             // 
             this.labelHourShort.AutoSize = true;
-            this.labelHourShort.Location = new System.Drawing.Point(331, 14);
+            this.labelHourShort.Location = new System.Drawing.Point(310, 14);
             this.labelHourShort.Name = "labelHourShort";
-            this.labelHourShort.Size = new System.Drawing.Size(13, 13);
+            this.labelHourShort.Size = new System.Drawing.Size(28, 13);
             this.labelHourShort.TabIndex = 5;
-            this.labelHourShort.Text = "h";
+            this.labelHourShort.Text = "hour";
             // 
             // numericUpDownSettingPickTimeD
             // 
-            this.numericUpDownSettingPickTimeD.Location = new System.Drawing.Point(217, 12);
+            this.numericUpDownSettingPickTimeD.Location = new System.Drawing.Point(181, 12);
             this.numericUpDownSettingPickTimeD.Maximum = new decimal(new int[] {
             15,
             0,
@@ -216,7 +216,7 @@
             // 
             // numericUpDownSettingLoopCitys
             // 
-            this.numericUpDownSettingLoopCitys.Location = new System.Drawing.Point(217, 43);
+            this.numericUpDownSettingLoopCitys.Location = new System.Drawing.Point(181, 43);
             this.numericUpDownSettingLoopCitys.Name = "numericUpDownSettingLoopCitys";
             this.numericUpDownSettingLoopCitys.Size = new System.Drawing.Size(40, 20);
             this.numericUpDownSettingLoopCitys.TabIndex = 1;
@@ -234,7 +234,7 @@
             // 
             // numericUpDownSettingPickTimeH
             // 
-            this.numericUpDownSettingPickTimeH.Location = new System.Drawing.Point(285, 12);
+            this.numericUpDownSettingPickTimeH.Location = new System.Drawing.Point(264, 12);
             this.numericUpDownSettingPickTimeH.Maximum = new decimal(new int[] {
             24,
             0,
